@@ -1,0 +1,24 @@
+nav{
+    background-color: #fff159;
+    display: grid;
+    grid-template-areas: ;
+    grid-template-columns: 162px minmax(340px, 580px) minmax(350px, 390px);
+    grid-row: 40px 20px;
+    grid: column gap 24px;
+    padding: 8px 10px 12px 10px;
+    border: 2px solid red;
+}
+header{
+    border: 6px solid slateblue;
+    display: flex;
+    justify-content: center;
+    background-color: #fff159;
+    position: relative;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 13px;
+    width: 100%;
+}
+body{
+    border-collapse: collapse;
+}
