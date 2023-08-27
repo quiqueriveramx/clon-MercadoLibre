@@ -1,13 +1,15 @@
 nav{
     background-color: #fff159;
     display: grid;
-    grid-template-areas: ;
+    grid-template-areas: "nav-left-top nav-center-top nav-right-top"
+    "nav-left-bottom nav-center-bottom nav-right-bottom";
     grid-template-columns: 162px minmax(340px, 580px) minmax(350px, 390px);
     grid-row: 40px 20px;
     grid: column gap 24px;
     padding: 8px 10px 12px 10px;
     border: 2px solid red;
 }
+
 header{
     border: 6px solid slateblue;
     display: flex;
@@ -19,6 +21,40 @@ header{
     font-size: 13px;
     width: 100%;
 }
+
 body{
     border-collapse: collapse;
 }
+
+.nav.logo{
+background-repeat: no-repeat;
+overflow: hidden;
+text-indent: -999px;
+background-image: url(https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.4.1/mercadolibre/logo__large_plus.png);
+height: 34px;
+width: 134px;
+display: flex;
+position: static;
+}
+
+.nav-header-plus .nav-left-area.nav-top-area{
+    grid-area: nav-left-top;
+    grid-row-start: nav-left-top;
+    grid-column-start: nav-left-top;
+    grid-row-end: nav-left-top;
+    grid-column-end: nav-left-top;
+}
+
+.nav-header-plus .nav-left-area{
+    justify-content: flex-start;
+}
+
+.nav-header-plus .nav-top-area{
+    height: 40px;
+    align-items: centner;
+}
+
+.nav-header-plus .nav-area{
+    flex-direction: row;
+}
+
