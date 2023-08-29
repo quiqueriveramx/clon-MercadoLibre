@@ -114,3 +114,44 @@ section{
     max-width: 1920px;
 }
 
+.hub__carousel-default{
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.carousel__ul .carousel__ul--circle{
+    margin: 0 auto;
+    max-width: 1120px;
+    position: relative;
+    text-align: center;
+}
+
+.andes-carousel-snapped .carousel-list  .andes-carousel-snapped--scroll-hidden{
+    display: flex;
+    will-change: transform;
+    flex-direction: row;
+    transition: transform 350ms ease 0s;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.andes-carousel-snapped__slide .carousel-list-element .andes-carousel-snapped__slide--spacing-12 .andes-carousel-snapped__slide--next{
+    padding-bottom: 12px;
+    width: 129.5px;
+    margin-right: 12px;
+}
+
+.carousel-item{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    gap: 10px;display: grid;
+    gap: 20px;
+    height: 100px;
+    align-items: end;
+    border: 3px solid blueviolet;
+}
+
+
+
+
+
