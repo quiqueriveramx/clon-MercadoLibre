@@ -58,3 +58,59 @@ position: static;
     flex-direction: row;
 }
 
+.exhibitor__picture{
+    display: flex;
+    width: fit-content;
+    justify-content: flex-end;
+}
+
+.ofertas-img{
+    max-width: 340px;
+    max-height: 39px;
+}
+
+.nav-header-plus .nav-right-area.nav-top-area{
+    grid-area: nav-right-top;
+}
+
+.nav-header-plus .nav-right-area{
+justify-content: flex-end;
+}
+
+.nav-header-plus .nav-top-area{
+    height: 40px;
+    align-items: center;
+}
+
+.nav-header-plus .nav-left-area.nav-bottom-area{
+    grid-area: nav-left-bottom;
+    font-weight: 400;
+}
+
+.nav-header-plus .nav-left-area{
+    justify-content: flex-start;
+}
+
+.nav-header-plus .nav-bottom-area{
+    height: 28px;
+    align-items: flex end;
+}
+
+.hub_section__hub_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333333;
+}
+
+section{
+    display: block;
+}
+
+.back-to-school{
+    max-width: 1920px;
+}
+
