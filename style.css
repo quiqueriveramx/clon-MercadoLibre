@@ -7,7 +7,7 @@ nav{
     grid-row: 40px 20px;
     grid: column gap 24px;
     padding: 8px 10px 12px 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 header{
@@ -114,42 +114,123 @@ section{
     max-width: 1920px;
 }
 
-.hub__carousel-default{
-    overflow: hidden;
-    padding: 30px 0;
+main{
+    border: 20px solid #0056b3;
 }
 
-.carousel__ul .carousel__ul--circle{
-    margin: 0 auto;
-    max-width: 1120px;
+.carousel-container {
     position: relative;
-    text-align: center;
-}
-
-.andes-carousel-snapped .carousel-list  .andes-carousel-snapped--scroll-hidden{
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #ffffff; /* Agregamos color de fondo */
+    padding: 100px; /* Agregamos espacio interno */
+    margin: -9px;
+  }
+  
+  .carousel {
     display: flex;
-    will-change: transform;
-    flex-direction: row;
-    transition: transform 350ms ease 0s;
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.andes-carousel-snapped__slide .carousel-list-element .andes-carousel-snapped__slide--spacing-12 .andes-carousel-snapped__slide--next{
-    padding-bottom: 12px;
-    width: 129.5px;
-    margin-right: 12px;
-}
-
-.carousel-item{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    gap: 10px;display: grid;
     gap: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
+    padding: 10px;
+  }
+  
+  .carousel-item img {
+    width: 100px;
     height: 100px;
-    align-items: end;
-    border: 3px solid blueviolet;
-}
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .carousel-control-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .carousel-control-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .carousel-list-item{
+    font-size: 12px;
+  }
+
+  .hub_subtitle{
+    text-align: center;
+    margin: 30px 0;
+    padding: 0 20px;
+  }
+
+  .hub__boxed-width{
+    background-color:#e7e7e7;
+    background-image: none;
+
+  }
+
+  content{
+    max-width: 1184px;
+  }
+
+  .splinter-row{
+    margin: -8px;
+  }
+
+  .splinter-col-mobile-6{
+    grid-column: auto/span 2;
+    padding: 8px;
+  }
+
+  .andes-card andes-card{
+    height: 236px;
+    position: relative;
+  }
+
+  .item-image{
+    height: 100px;
+    width: 100%;
+  }
+
+  .item-description{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .subtitle{
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: 300;
+    letter-spacing: .6px;
+    max-width: 400px;
+    overflow: hidden;
+    padding: 0;
+    position: static;
+    text-overflow: ellipsis;
+    transform: none;
+  }
+
+
 
 
 
